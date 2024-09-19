@@ -42,11 +42,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-    --color-primary: hsl(192, 100%, 50%);
+    --color-primary: #038bce;
     --color-secondary: #f4f5f6;
     --color-tertiary: #0d1013;
     --color-gray: #f6f6f6;
-    --color-subtitle: hsl(192, 100%, 50%);
+    --color-subtitle: #038bce;
     --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
     --background-color-2: #212428;
     --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
@@ -97,7 +97,7 @@
     --transition: 0.4s;
     --font-primary: "Poppins", sans-serif;
     --font-secondary: "Montserrat", sans-serif;
-    --font-size-b1: 18px;
+    --font-size-b1: 10px;
     --font-size-b2: 22px;
     --font-size-b3: 14px;
     --line-height-b1: 1.50;
@@ -5278,6 +5278,8 @@ abbr[title] {
 b,
 strong {
     font-weight: bold;
+    font-size: 70%;
+    color:#000
 }
 
 mark {
@@ -5375,7 +5377,7 @@ img {
     -ms-interpolation-mode: bicubic;
     border: 0;
     vertical-align: middle;
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -10916,7 +10918,7 @@ body.template-color-1 {
 }
 
 .sticky .header-wrapper .logo img {
-    max-width: 90%;
+    max-width: 30%;
 }
 
 .logo a {
@@ -19630,7 +19632,7 @@ body.white-version .rn-btn-ulderline {
 }
 
 .white-version .slide .content .inner .title {
-    color: var(--color-heading-wv);
+    color: #ffec31;
 }
 
 .white-version .slide .content .inner .title span {
